@@ -40,12 +40,12 @@ h2{
 }
 
 .solIcon{
-  color: brown;
+  color: rgb(255, 255, 255);
   font-size: 1.4em;
 }
 
 .solIconH{
-  color: brown;
+  color: rgb(255, 255, 255);
   font-size: 1em!important;
 }
 
@@ -61,4 +61,13 @@ h2{
 
 .aboutImg{
   width: 100%;
+}
+
+/*FORM*/
+.padTop{
+  padding-top: 2rem;
+}
+
+.input{
+  border-radius: 0px;
 }
