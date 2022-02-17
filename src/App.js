@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 /* COMPONENTS */
 import ExploreSolutions from './components/ExploreSolutions';
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       </header>
 
       <ExploreSolutions/>
+      
+      <AboutUs/>
     </div>
   );
 }

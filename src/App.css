@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap');
 /*font-family: 'Roboto', sans-serif;*/
 
+p{
+  color: #001623;
+}
+
 h2{
   font-size: 1.5em;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  color: #001623;
 }
 
 /* SOLUTIONS */
@@ -42,4 +47,18 @@ h2{
 .solIconH{
   color: brown;
   font-size: 1em!important;
+}
+
+/* ABOUT US */
+.aboutUs{
+  padding-right: 3rem;
+}
+
+.aboutUs p{
+  text-align: justify;
+  font-size: 0.85em;
+}
+
+.aboutImg{
+  width: 100%;
 }
