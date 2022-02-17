@@ -1,38 +1,45 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+h2{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* SOLUTIONS */
+.solutions{
+  padding: 0 9rem;
+}
+
+.sol{
+  padding: 0 1.5rem;
+}
+
+.images{
+  width: 100%;
+}
+
+.overlay{
+  position: relative;
+  transform: translate(0%, -280%);
+  display: block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overlayTwo{
+  position: relative;
+  transform: translate(0%, -200%);
+  display: block;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.solIcon{
+  color: brown;
+  font-size: 1.4em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.solIconH{
+  color: brown;
+  font-size: 1em!important;
 }
