@@ -1,25 +1,25 @@
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 function Form() {
-  function SendMail(e){
+  function SendMail(e) {
     e.preventDefault();
 
-    emailjs.sendForm(
-      'service_39xc98u', 
-      'template_plaf5rt', 
-      e.target,
-      'user_ot1kctrPFOU9NPpEl1J1G'
-      ). then(res=>{
+    emailjs
+      .sendForm(
+        "service_39xc98u",
+        "template_plaf5rt",
+        e.target,
+        "user_ot1kctrPFOU9NPpEl1J1G"
+      )
+      .then((res) => {
         console.log(res);
-      }).catch(err=> console.log(err));
+      })
+      .catch((err) => console.log(err));
   }
 
   return (
     <div className="container-fluid">
-      <section
-        id="contacts"
-        className="row justify-content-center padTop"
-      >
+      <section id="contacts" className="row justify-content-center padTop">
         <div className="col-md-7 col-lg-8">
           <h2 className="">Get In Touch</h2>
           <form className="p-4" onSubmit={SendMail}>
@@ -66,9 +66,7 @@ function Form() {
               </div>
             </div>
             <div className="d.flex text-center">
-              <button
-                type="submit"
-                className="btn btn-dark mt-4">
+              <button type="submit" className="btn btn-dark mt-4">
                 Send
               </button>
             </div>
