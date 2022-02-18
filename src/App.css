@@ -1,73 +1,174 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap");
 /*font-family: 'Roboto', sans-serif;*/
 
-p{
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
   color: #001623;
 }
 
-h2{
+h2 {
   font-size: 1.5em;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #001623;
 }
 
 /* SOLUTIONS */
-.solutions{
+.solutions {
   padding: 0 9rem;
+  margin-top: 60px;
 }
 
-.sol{
+.sol {
   padding: 0 1.5rem;
 }
 
-.images{
+.images {
   width: 100%;
 }
 
-.overlay{
+.overlay {
   position: relative;
   transform: translate(0%, -280%);
   display: block;
   text-align: center;
 }
 
-.overlayTwo{
+.overlayTwo {
   position: relative;
   transform: translate(0%, -200%);
   display: block;
   text-align: center;
 }
 
-.solIcon{
+.solIcon {
   color: rgb(255, 255, 255);
   font-size: 1.4em;
 }
 
-.solIconH{
+.solIconH {
   color: rgb(255, 255, 255);
-  font-size: 1em!important;
+  font-size: 1em !important;
 }
 
 /* ABOUT US */
-.aboutUs{
+.aboutUs {
   padding-right: 3rem;
 }
 
-.aboutUs p{
+.aboutUs p {
   text-align: justify;
   font-size: 0.85em;
 }
 
-.aboutImg{
+.aboutImg {
   width: 100%;
 }
 
 /*FORM*/
-.padTop{
+.padTop {
   padding-top: 2rem;
 }
 
-.input{
+.input {
   border-radius: 0px;
+}
+
+/* NAVBAR */
+
+.logo-navbar {
+  height: 100%;
+  margin-left: 30px;
+}
+
+header {
+  background: #e7f5ea;
+  height: 12vh;
+  display: flex;
+}
+
+.menu {
+  width: 100%;
+  margin-top: 1%;
+  margin-right: 30px;
+}
+
+.menu .menu-item {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  font-size: 1.2rem;
+}
+
+.menu .menu-item li {
+  margin: 20px;
+  list-style: none;
+}
+
+.menu .menu-item .nav-hash {
+  color: #065143;
+  text-decoration: none;
+}
+
+.menu .menu-item .nav-hash:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+/* CAROUSEL */
+
+.carousel {
+  height: 90vh;
+  position: relative;
+  cursor: grab;
+}
+
+.carousel.one {
+  background: url(./resources/carousel-1.png);
+}
+
+.carousel.two {
+  background: url(./resources/carousel-2.png);
+}
+
+.carousel.three {
+  background: url(./resources/carousel-3.png);
+}
+
+.carousel .carousel-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 80%;
+  top: 30%;
+  left: 10%;
+}
+
+.carousel h3 {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.carousel p {
+  color: #fff;
+  font-size: 25px;
+  width: 50%;
+}
+
+/* FOOTER */
+
+footer {
+  background: #e7f5ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+footer img {
+  width: 40vh;
 }
