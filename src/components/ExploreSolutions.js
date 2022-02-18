@@ -9,7 +9,7 @@ function ExploreSolutions() {
         <div className='row'>
 
             <div className='col sol'>
-                <img className='images' alt="solutions" src={require('../resources/solutions.png')}/>
+                <img className='images dim' alt="solutions" src={require('../resources/sol1.png')}/>
 
                 <div className="overlayTwo">
                     <RiFilePaper2Line className="solIcon"/>
@@ -18,7 +18,7 @@ function ExploreSolutions() {
             </div>
 
             <div className='col sol'>
-                <img className='images' alt="solutions" src={require('../resources/solutions.png')}/>
+                <img className='images dim' alt="solutions" src={require('../resources/sol2.png')}/>
 
                 <div className="overlayTwo">
                     <RiBriefcase2Fill className="solIcon"/>
@@ -27,7 +27,7 @@ function ExploreSolutions() {
             </div>
 
             <div className='col sol'>
-                <img className='images' alt="solutions" src={require('../resources/solutions.png')}/>
+                <img className='images dim' alt="solutions" src={require('../resources/sol3.png')}/>
 
                 <div className="overlay">
                     <FaCertificate className="solIcon"/>

@@ -25,6 +25,16 @@ h2{
   width: 100%;
 }
 
+/* .shadow{
+  filter: drop-shadow(0 0 0.75rem rgb(44, 42, 43));
+
+} */
+
+.dim{
+  opacity: 80%;
+  filter: brightness(60%);
+}
+
 .overlay{
   position: relative;
   transform: translate(0%, -280%);
