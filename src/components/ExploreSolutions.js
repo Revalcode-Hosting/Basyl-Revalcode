@@ -9,9 +9,9 @@ function ExploreSolutions() {
       <div className="row">
         <div className="col sol">
           <img
-            className="images"
+            className="images dim"
             alt="solutions"
-            src={require("../resources/solutions.png")}
+            src={require("../resources/sol1.png")}
           />
 
           <div className="overlayTwo">
@@ -22,9 +22,9 @@ function ExploreSolutions() {
 
         <div className="col sol">
           <img
-            className="images"
+            className="images dim"
             alt="solutions"
-            src={require("../resources/solutions.png")}
+            src={require("../resources/sol2.png")}
           />
 
           <div className="overlayTwo">
@@ -35,9 +35,9 @@ function ExploreSolutions() {
 
         <div className="col sol">
           <img
-            className="images"
+            className="images dim"
             alt="solutions"
-            src={require("../resources/solutions.png")}
+            src={require("../resources/sol3.png")}
           />
 
           <div className="overlay">
