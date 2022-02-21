@@ -176,9 +176,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 30vh;
 }
 
 footer img {
-  width: 40vh;
+  width: 25vh;
+}
+
+footer p{
+  font-size: 0.6em;
 }
