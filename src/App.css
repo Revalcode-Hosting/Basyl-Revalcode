@@ -76,6 +76,7 @@ h2 {
 
 .aboutImg {
   width: 100%;
+  border-radius: 0 25px 0 0;
 }
 
 /*FORM*/
@@ -131,7 +132,7 @@ header {
 /* CAROUSEL */
 
 .carousel {
-  height: 90vh;
+  height: 80vh;
   position: relative;
   cursor: grab;
 }
@@ -161,12 +162,14 @@ header {
   color: #fff;
   font-size: 50px;
   margin-bottom: 25px;
+  text-shadow: rgb(88, 93, 116) 1px 0 10px;
 }
 
 .carousel p {
   color: #fff;
-  font-size: 25px;
-  width: 50%;
+  font-size: 1.3em;
+  width: 80%;
+  text-shadow: rgb(88, 93, 116) 1px 0 10px;
 }
 
 /* FOOTER */

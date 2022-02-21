@@ -16,7 +16,7 @@ function ExploreSolutions() {
 
           <div className="overlayTwo">
             <RiFilePaper2Line className="solIcon" />
-            <h5 className="solIconH">Business Growth Strategy</h5>
+            <h5 className="solIconH">Business Growth <br/> Strategy</h5>
           </div>
         </div>
 
