@@ -1,12 +1,12 @@
-import atention from "../resources/Atention.svg";
-import services from "../resources/Services.svg";
-import finance from "../resources/Finance.svg";
+import { HiOutlineReceiptTax } from "react-icons/hi";
+import { MdOutlinePayment } from "react-icons/md";
+import { CgNotes } from "react-icons/cg";
 
 const CardContent = (props) => {
   return (
     <>
       <div className="content">
-        <img src={props.image} alt={props.alt} />
+        {props.img}
         <h3 className="card-title">{props.title}</h3>
         <p className="text"> {props.text}</p>
       </div>
@@ -16,31 +16,31 @@ const CardContent = (props) => {
 
 const Cards = () => {
   return (
-    <section id="cards" className="cards">
+    <section id="services" className="cards">
       <div className="container">
         <div className="row ">
           <div className="carta col-4">
             <CardContent
-              image={services}
-              alt="Quality in service"
-              title="Quality in service"
-              text="We manage that all the elements involved in the trip and the process of providing the service work in an integrated way to meet expectations."
+              img={ <CgNotes className="icon"/>}
+              alt="Corporate strategy and planning services"
+              title="Corporate strategy and planning services"
+              text="Under this service, our professionals help your company to formulate and execute the organizational strategy, innovation, skills development, operating model and the design of highly effective service delivery."
             />
           </div>
           <div className="carta col-4">
             <CardContent
-              image={atention}
-              alt="Personalized attention"
-              title="Personalized attention"
-              text=" We seek customer satisfaction at all times. We have a team of professionals with extensive experience."
+              img= { <MdOutlinePayment className="icon"/> }
+              alt="Payroll Services"
+              title="Payroll Services"
+              text="We will be responsible for carrying out the calculation and control of payroll, withholdings and payments established by current labor laws, such as profit sharing and Christmas bonus, among others."
             />
           </div>
           <div className="carta col-4">
             <CardContent
-              image={finance}
-              alt="Financing"
-              title="Financing"
-              text=" We have extensive financing and we advise you on the best promotions on the market so that you can make your payments in the best way."
+              img= { <HiOutlineReceiptTax className="icon"/> }
+              alt="Tax Advisory"
+              title="Tax Advisory"
+              text="We present the financial, budget and economic accounting information of your company to public and private institutions."
             />
           </div>
         </div>

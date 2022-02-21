@@ -188,9 +188,8 @@ header {
 .cards .content {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  background: rgba(25, 91, 107, 0.7);
+  background: #88998b90;
   text-align: center;
   padding: 30px;
   margin: 10px;
@@ -198,10 +197,11 @@ header {
   color: #fff;
   border: 1px solid rgb(199, 199, 199);
   border-radius: 10px;
+  padding-top: 3rem;
 }
 
 .cards .content:hover {
-  background: #195b6b;
+  background: #54685885;
   transition: 0.3s ease;
 }
 
@@ -211,18 +211,26 @@ header {
 }
 
 .cards .content h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 20px;
   font-weight: 600;
+  text-shadow: rgb(88, 93, 116) 1px 0 10px;
 }
 
 .cards .content .text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 2px;
+  text-shadow: rgb(88, 93, 116) 1px 0 10px;
 }
 
 .cards p{
   color: #fff;
+}
+
+.icon{
+  font-size: 4em;
+  margin-bottom: 1rem;
+  text-shadow: rgb(88, 93, 116) 1px 0 10px;
 }
 
 /* FOOTER */

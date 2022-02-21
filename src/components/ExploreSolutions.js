@@ -4,7 +4,7 @@ import { FaCertificate } from "react-icons/fa";
 
 function ExploreSolutions() {
   return (
-    <div id="services" className="container solutions">
+    <div id="solutions" className="container solutions">
       <h2>Explore Our Solutions</h2>
       <div className="row">
         <div className="col sol">
