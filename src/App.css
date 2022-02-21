@@ -172,6 +172,59 @@ header {
   text-shadow: rgb(88, 93, 116) 1px 0 10px;
 }
 
+/* Cards */
+.cards {
+  background: url("resources/cards-bc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cards .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(25, 91, 107, 0.7);
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+  height: 60vh;
+  color: #fff;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 10px;
+}
+
+.cards .content:hover {
+  background: #195b6b;
+  transition: 0.3s ease;
+}
+
+.cards .content img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.cards .content h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.cards .content .text {
+  font-size: 1.2rem;
+  padding: 2px;
+}
+
+.cards p{
+  color: #fff;
+}
+
 /* FOOTER */
 
 footer {
@@ -188,4 +241,19 @@ footer img {
 
 footer p{
   font-size: 0.6em;
+}
+
+@media screen and (max-width: 48rem) {
+
+}
+
+@media screen and (max-width: 26.563rem) {
+  /* Cards */
+  .cards {
+    height: 100vh;
+  }
+
+  .cards .carta {
+    width: auto;
+  }
 }
