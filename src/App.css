@@ -308,6 +308,70 @@ footer p {
     height: 23vh;
   }
 }
+
+@media screen and (max-width: 64rem) {
+  header {
+    height: 7vh;
+  }
+
+  .logo-navbar {
+    margin-left: 0;
+  }
+
+  .menu {
+    margin-right: 0;
+  }
+
+  .menu .menu-item {
+    font-size: 1em;
+  }
+
+  /* EXPLORE SOLUTIONS */
+
+  .solutions {
+    padding: 0;
+  }
+
+  .solutions h2 {
+    margin-bottom: 50px;
+  }
+
+  /* ABOUT US */
+
+  .aboutUs {
+    margin-top: 80px;
+    margin-bottom: 150px;
+  }
+
+  .aboutImg {
+    margin-top: 70px;
+  }
+
+  .aboutUs h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .aboutUs p {
+    line-height: 25px;
+  }
+
+  /* CARDS */
+  .cards {
+    height: 65vh;
+  }
+
+  .cards .content {
+    height: 40vh;
+  }
+
+  /* CONTACT */
+
+  .padTop {
+    margin: 100px 0;
+  }
+}
+
 @media screen and (max-width: 26.563rem) {
   /* Cards */
   .cards {
