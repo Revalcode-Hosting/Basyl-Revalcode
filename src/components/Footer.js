@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer text-center">
       <div>
         <img className="logoFooter" src={logo} alt="logo" />
-        <p>| Copyright © 2022 All rights reserved |</p>
+        <p>Revalcode | Copyright © 2022 All rights reserved |</p>
       </div>
     </footer>
   );

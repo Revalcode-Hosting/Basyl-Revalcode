@@ -18,7 +18,6 @@ function Navbar() {
       <nav className="menu">
         <ul className="menu-item">
           <NavElement to="#home" name="Home" />
-          <NavElement to="#solutions" name="Solutions" />
           <NavElement to="#aboutus" name="About Us" />
           <NavElement to="#services" name="Services" />
           <NavElement to="#contacts" name="Contacts" />

@@ -223,11 +223,11 @@ header {
   text-shadow: rgb(88, 93, 116) 1px 0 10px;
 }
 
-.cards p{
+.cards p {
   color: #fff;
 }
 
-.icon{
+.icon {
   font-size: 4em;
   margin-bottom: 1rem;
   text-shadow: rgb(88, 93, 116) 1px 0 10px;
@@ -247,12 +247,129 @@ footer img {
   width: 25vh;
 }
 
-footer p{
+footer p {
   font-size: 0.6em;
 }
 
 @media screen and (max-width: 48rem) {
+  /* NAVBAR */
+  header {
+    height: 7vh;
+  }
 
+  .logo-navbar {
+    margin-left: 0;
+  }
+
+  .menu {
+    margin-right: 0;
+  }
+
+  .menu .menu-item {
+    font-size: 1em;
+  }
+
+  /* EXPLORE SOLUTIONS */
+
+  .solutions {
+    padding: 0;
+  }
+
+  .solutions h2 {
+    margin-bottom: 50px;
+  }
+
+  /* ABOUT US */
+
+  .aboutUs {
+    margin: 50px 0;
+  }
+
+  .aboutImg {
+    margin-top: 100px;
+  }
+
+  .aboutUs h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .aboutUs p {
+    line-height: 25px;
+  }
+
+  /* CARDS */
+
+  .cards .carta {
+    width: 100%;
+  }
+
+  .cards .content {
+    height: 23vh;
+  }
+}
+
+@media screen and (max-width: 64rem) {
+  header {
+    height: 7vh;
+  }
+
+  .logo-navbar {
+    margin-left: 0;
+  }
+
+  .menu {
+    margin-right: 0;
+  }
+
+  .menu .menu-item {
+    font-size: 1em;
+  }
+
+  /* EXPLORE SOLUTIONS */
+
+  .solutions {
+    padding: 0;
+  }
+
+  .solutions h2 {
+    margin-bottom: 50px;
+  }
+
+  /* ABOUT US */
+
+  .aboutUs {
+    margin-top: 80px;
+    margin-bottom: 150px;
+  }
+
+  .aboutImg {
+    margin-top: 70px;
+  }
+
+  .aboutUs h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .aboutUs p {
+    line-height: 25px;
+  }
+
+  /* CARDS */
+  .cards {
+    height: 65vh;
+  }
+
+  .cards .content {
+    height: 40vh;
+  }
+
+  /* CONTACT */
+
+  .padTop {
+    margin: 100px 0;
+  }
 }
 
 @media screen and (max-width: 26.563rem) {
