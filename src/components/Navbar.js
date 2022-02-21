@@ -11,7 +11,7 @@ function NavElement(props) {
 
 function Navbar() {
   return (
-    <header>
+    <header className="align-middle">
       <div className="logo">
         <img alt="logo" className="logo-navbar" src={Logo} />
       </div>

@@ -1,7 +1,7 @@
 
 function AboutUs() {
     return (
-      <div className=''>
+      <div id='aboutus'>
           <div className="row aboutUs">
             <div className="col">
                 <img className='aboutImg' alt="about us" src={require('../resources/aboutus.png')}/>

@@ -19,7 +19,7 @@ export default class AutoPlay extends Component {
     return (
       <Slider {...settings}>
         <div className="carousel one">
-          <div class="carousel-content">
+          <div className="carousel-content">
             <h3 className="title-slider">
               Businnes
               <br />
@@ -33,7 +33,7 @@ export default class AutoPlay extends Component {
           </div>
         </div>
         <div className="carousel two">
-          <div class="carousel-content">
+          <div className="carousel-content">
             <h3 className="title-slider">Punctual</h3>
             <p>
               Through each of our services, we provide punctual and personalized
@@ -43,7 +43,7 @@ export default class AutoPlay extends Component {
           </div>
         </div>
         <div className="carousel three">
-          <div class="carousel-content">
+          <div className="carousel-content">
             <h3 className="title-slider">
               Committed <br />
               to your company
