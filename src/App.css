@@ -129,6 +129,14 @@ header {
   transition: 0.3s;
 }
 
+.nav-link{
+  color: #137765;
+}
+
+.nav-link:focus, .nav-link:hover{
+  color: #065143;
+}
+
 /* CAROUSEL */
 
 .carousel {
@@ -251,11 +259,44 @@ footer p{
   font-size: 0.6em;
 }
 
+.big{
+  display: initial;
+}
+
+.small{
+  display: none;
+}
+
+
+
 @media screen and (max-width: 48rem) {
 
 }
 
 @media screen and (max-width: 26.563rem) {
+  /* ABOUT US */
+  .big{
+    display: none;
+  }
+
+  .small{
+    display: initial;
+    font-size: 1.4em;
+  }
+
+  .aboutImgTwo{
+    width: 100%;
+  }
+
+  .disappear{
+    width: 0%!important;
+    flex: 0;
+  }
+
+  .aboutT{
+    padding-top: 1rem;
+  }
+
   /* Cards */
   .cards {
     height: 100vh;
