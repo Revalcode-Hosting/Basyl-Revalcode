@@ -281,11 +281,24 @@ footer p{
 
   .small{
     display: initial;
+  }
+
+  .menu{
     font-size: 1.4em;
+  }
+
+  .nav-hash{
+    color: #065143;
+    text-decoration: none;
   }
 
   .aboutImgTwo{
     width: 100%;
+  }
+
+  .nav-link{
+    padding: 2rem 0;
+    float: right!important;
   }
 
   .disappear{

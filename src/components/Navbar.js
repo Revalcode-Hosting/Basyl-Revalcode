@@ -26,7 +26,7 @@ function Navbar() {
         </ul>
       </div>
 
-      <NavDropdown title="Menu" id="nav-dropdown" className="small">
+      <NavDropdown title="Menu" id="nav-dropdown" className="small menu">
 
         <NavDropdown.Item eventKey="4.1" className="navSmall">
           <NavElement to="#home" name="Home" className="navsmall"/>
