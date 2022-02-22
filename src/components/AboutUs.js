@@ -1,4 +1,3 @@
-
 function AboutUs() {
     return (
       <div id='aboutus'>
@@ -17,9 +16,8 @@ function AboutUs() {
                   Regardless of all the complications and hurdles, our corporate business consultants are trained to solve even the toughest business problems you face, considering current market conditions. You can trust us, as we have the best corporate strategy consulting resources and the ability to deliver the solutions you need. As one of the most trusted corporate consulting firms in India, we can help you take crucial actions and achieve sustainable results.</p>
             </div>
           </div>
-
       </div>
-    );
-  }
-  
-  export default AboutUs;
+  );
+}
+
+export default AboutUs;
