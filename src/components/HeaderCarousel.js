@@ -44,13 +44,10 @@ export default class AutoPlay extends Component {
         </div>
         <div className="carousel three">
           <div className="carousel-content">
-            <h3 className="title-slider">
-              Committed <br />
-              to your company
-            </h3>
+            <h3 className="title-slider">International Services</h3>
             <p>
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque
-              nihil impedit quo minus.
+              Consultancy and operational services for internationally expanding
+              companies.
             </p>
           </div>
         </div>
