@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap");
-/*font-family: 'Roboto', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Nunito:wght@200;300;400;500;600&family=Open+Sans:wght@300;400&display=swap");
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   overflow-x: hidden;
 }
 
@@ -13,7 +12,7 @@ p {
 h2 {
   font-size: 1.5em;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #001623;
 }
 
@@ -578,6 +577,87 @@ footer p {
 
   .overlay {
     transform: translate(0, -190%);
+  }
+
+  .solIconH {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (max-width: 26.563rem) {
+  /* ABOUT US */
+  .big {
+    display: none;
+  }
+
+  .small {
+    display: initial;
+  }
+
+  .menu {
+    font-size: 1.4em;
+  }
+
+  .nav-hash {
+    color: #065143;
+    text-decoration: none;
+  }
+
+  .aboutImgTwo {
+    width: 100%;
+  }
+
+  .nav-link {
+    padding: 2rem 0;
+    float: right !important;
+  }
+
+  .disappear {
+    width: 0% !important;
+    flex: 0;
+  }
+
+  .aboutT {
+    padding-top: 1rem;
+  }
+
+  /* /CAROUSEL/ */
+  .carousel h3 {
+    font-size: 25px;
+  }
+
+  .carousel p {
+    font-size: 1em;
+  }
+
+  /* Cards */
+  .cards {
+    height: 100%;
+  }
+
+  .dim {
+    border-radius: 5px;
+  }
+
+  .cards .content {
+    height: 43vh;
+  }
+
+  .cards .carta {
+    width: auto;
+  }
+
+  /* /SOLUTIONS/ */
+  .solutions {
+    padding: 0 0;
+  }
+
+  .overlayTwo {
+    transform: translate(0, -135%);
+  }
+
+  .overlay {
+    transform: translate(0, -200%);
   }
 
   .solIconH {
