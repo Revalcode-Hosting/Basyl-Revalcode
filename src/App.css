@@ -3,6 +3,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 p {
@@ -129,11 +130,12 @@ header {
   transition: 0.3s;
 }
 
-.nav-link{
+.nav-link {
   color: #137765;
 }
 
-.nav-link:focus, .nav-link:hover{
+.nav-link:focus,
+.nav-link:hover {
   color: #065143;
 }
 
@@ -206,7 +208,7 @@ header {
   border: 1px solid rgb(199, 199, 199);
   border-radius: 10px;
   height: 100%;
-  padding: 2rem!important;
+  padding: 2rem !important;
   margin: 1rem;
 }
 
@@ -261,11 +263,11 @@ footer p {
   font-size: 0.6em;
 }
 
-.big{
+.big {
   display: initial;
 }
 
-.small{
+.small {
   display: none;
 }
 
@@ -365,7 +367,7 @@ footer p {
 }
 
 @media screen and (max-width: 64rem) {
-  header{
+  header {
     height: 7vh;
   }
 
@@ -417,20 +419,19 @@ footer p {
 
   .cards .content {
     height: 90%;
-    padding: 2rem!important;
+    padding: 2rem !important;
   }
 
-  .col-4{
+  .col-4 {
     width: 95%;
-
   }
 
-  .block{
+  .block {
     display: block;
   }
 
   /* CONTACT */
-  .big{
+  .big {
     padding-right: 2rem;
   }
 
@@ -441,8 +442,6 @@ footer p {
 }
 
 @media screen and (max-width: 48rem) {
-  
-  
   /* NAVBAR */
   header {
     height: 15vh;
@@ -495,58 +494,57 @@ footer p {
     width: 100%;
   }
 
-
-  .padTop{
-    padding: 0.5rem!important;
+  .padTop {
+    padding: 0.5rem !important;
   }
 
   /* ABOUT US */
-  .big{
+  .big {
     display: none;
   }
 
-  .small{
+  .small {
     display: initial;
     padding-right: 2rem;
   }
 
-  .menu{
+  .menu {
     font-size: 1.4em;
   }
 
-  .nav-hash{
+  .nav-hash {
     color: #065143;
     text-decoration: none;
   }
 
-  .aboutImgTwo{
+  .aboutImgTwo {
     width: 100%;
   }
 
-  .padTop{
-    padding: 0rem!important;
+  .padTop {
+    padding: 0rem !important;
   }
 
-  .nav-link{
+  .nav-link {
     padding: 0.8rem 0;
-    float: right!important;
+    float: right !important;
   }
 
-  .disappear{
-    width: 0%!important;
+  .disappear {
+    width: 0% !important;
     flex: 0;
   }
 
-  .aboutT{
+  .aboutT {
     padding-top: 1rem;
   }
 
   /*CAROUSEL*/
-  .carousel h3{
+  .carousel h3 {
     font-size: 25px;
   }
 
-  .carousel p{
+  .carousel p {
     font-size: 1em;
   }
 
@@ -555,11 +553,11 @@ footer p {
     height: 100%;
   }
 
-  .dim{
+  .dim {
     border-radius: 5px;
   }
 
-  .cards .content{
+  .cards .content {
     height: 95%;
     padding-bottom: 1rem;
   }
@@ -570,19 +568,19 @@ footer p {
   }
 
   /*SOLUTIONS*/
-  .solutions{
+  .solutions {
     padding: 0 0;
   }
 
-  .overlayTwo{
+  .overlayTwo {
     transform: translate(0, -120%);
   }
 
-  .overlay{
+  .overlay {
     transform: translate(0, -190%);
   }
 
-  .solIconH{
-    font-size: 0.8rem!important;
+  .solIconH {
+    font-size: 0.8rem !important;
   }
 }
