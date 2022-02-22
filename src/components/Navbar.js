@@ -1,6 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 import Logo from "../resources/Basyl_logo.png";
-import { NavDropdown, NavDropdownItem } from 'react-bootstrap';
+import { NavDropdown } from 'react-bootstrap';
 
 function NavElement(props) {
   return (

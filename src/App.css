@@ -310,12 +310,46 @@ footer p{
     padding-top: 1rem;
   }
 
+  /*CAROUSEL*/
+  .carousel h3{
+    font-size: 25px;
+  }
+
+  .carousel p{
+    font-size: 1em;
+  }
+
   /* Cards */
   .cards {
-    height: 100vh;
+    height: 100%;
+  }
+
+  .dim{
+    border-radius: 5px;
+  }
+
+  .cards .content{
+    height: 43vh;
   }
 
   .cards .carta {
     width: auto;
+  }
+
+  /*SOLUTIONS*/
+  .solutions{
+    padding: 0 0;
+  }
+
+  .overlayTwo{
+    transform: translate(0, -135%);
+  }
+
+  .overlay{
+    transform: translate(0, -200%);
+  }
+
+  .solIconH{
+    font-size: 0.8rem!important;
   }
 }
