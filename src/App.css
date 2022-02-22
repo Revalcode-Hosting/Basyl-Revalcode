@@ -382,3 +382,98 @@ footer p {
     width: auto;
   }
 }
+
+@media screen and (min-width: 120rem) {
+  /* EXPLORE SOLUTIONS */
+
+  .solutions {
+    padding: 0;
+    margin: 100px auto;
+  }
+
+  .solutions h2 {
+    font-size: 3em;
+    margin-bottom: 80px;
+  }
+
+  .overlay .solIcon {
+    font-size: 2em;
+  }
+
+  .overlayTwo .solIcon {
+    font-size: 2em;
+  }
+
+  .overlayTwo h5 {
+    font-size: 1.5em !important;
+    margin-top: 10px;
+  }
+
+  .overlay h5 {
+    font-size: 1.5em !important;
+    margin-top: 10px;
+  }
+
+  /* ABOUT US */
+
+  .aboutUs {
+    margin-bottom: 150px;
+  }
+
+  .aboutUs .about-content {
+    padding-left: 50px;
+    margin-left: 20px;
+  }
+
+  .aboutUs .about-content h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+
+  .aboutUs .about-content p {
+    font-size: 1.5em;
+  }
+
+  /* CARDS */
+
+  .cards .content .icon {
+    font-size: 7em;
+  }
+
+  .cards .content h3 {
+    font-size: 1.8rem;
+    margin: 30px 0;
+  }
+
+  .cards .content .text {
+    font-size: 1.3rem;
+    font-weight: lighter;
+  }
+
+  /* CONTACTS  */
+  .padTop {
+    margin: 100px 0;
+  }
+
+  .padTop h2 {
+    font-size: 3em;
+  }
+
+  label {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    color: #065143;
+  }
+
+  .button-submit {
+    background: #065143;
+    color: #fff;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .button-submit:hover {
+    opacity: 0.8;
+    color: #fff;
+  }
+}
